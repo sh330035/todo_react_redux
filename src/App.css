@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.add-todo-bar {
+  margin-top: 20px;
+}
+
+#new-task {
+  width: 75%;
+  font-size: 14px;
+  border-radius: 2em;
+  padding: 0.75em 1.5em;
+  background: none;
+  border: #e3e3e3 1px solid;
+  transition: border 250ms ease-out;
+  color: black;
+}
+
+#new-task:hover {
+  outline: none !important;
+  border: #eb772a 1px solid;
+}
+
+#new-task:focus {
+  outline: none !important;
+  border: #eb772a 1px solid;
+}
+
+.add-btn {
+  font-size: 14px;
+  margin: 0 .5em;
+  border-radius: 2em;
+  padding: 0.75em 1.5em;
+  cursor: pointer;
+  background: none;
+  color: darken(color-main, 20%);
+  border: 1px solid;
+  letter-spacing: 1px;
+  color: #eb772a;
+  border: color-main 1px solid;
+  transition: 250ms ease-out;
+}
+
+.add-btn:hover, :focus {
+  color: white;
+  background: #eb772a;
+}
